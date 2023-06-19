@@ -1,0 +1,44 @@
+[
+    {
+        "id":"a",
+        "image":"https://res.cloudinary.com/dqwxhz0ys/image/upload/v1687194522/Portfolio/course-01_cee0to.jpg",
+        "title": "Gallery Title",
+        "content":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ullam?",
+        "filter":["trending","features"]
+    },
+    {
+        "id":"b",
+        "image":"https://res.cloudinary.com/dqwxhz0ys/image/upload/v1687194522/Portfolio/course-02_hpz7er.jpg",
+        "title":"Gallery Title",
+        "content":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ullam?",
+        "filter":["trending","popular"]
+    },
+    {
+        "id":"c",
+        "image":"https://res.cloudinary.com/dqwxhz0ys/image/upload/v1687194522/Portfolio/course-03_ek6eec.jpg",
+        "title":"Gallery Title",
+        "content":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ullam?",
+        "filter":["popular","features"]
+    },
+    {
+        "id":"d",
+        "image":"https://res.cloudinary.com/dqwxhz0ys/image/upload/v1687194522/Portfolio/course-04_xv0yru.jpg",
+        "title":"Gallery Title",
+        "content":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ullam?",
+        "filter":["popular","trending"]
+    },
+    {
+        "id":"e",
+        "image":"https://res.cloudinary.com/dqwxhz0ys/image/upload/v1687194523/Portfolio/course-05_aniv2z.jpg",
+        "title":"Gallery Title",
+        "content":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ullam?",
+        "filter":["popular","features"]
+    },
+    {
+        "id": "f",
+        "image": "https://res.cloudinary.com/dqwxhz0ys/image/upload/v1687194522/Portfolio/course-06_fpg35m.jpg",
+        "title": "Gallery Title",
+        "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, ullam?",
+        "filter":["trending"]
+    }
+]

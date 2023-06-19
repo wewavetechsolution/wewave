@@ -1,0 +1,107 @@
+
+.feature {
+    background: url(../../../Assets/Images/feature-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+}
+
+.booking-img {
+    padding: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.contact_content .form-control {
+    background: #ddd;
+    border: 2px solid transparent;
+    min-height: 44px;
+    box-shadow: none;
+    transition: 0.5s;
+
+}
+
+.contact_content .form-group {
+    margin-bottom: 20px;
+}
+
+.contact_content .form-control:focus,
+.contact_content .form-control:active {
+    border: 2px solid var(--primary);
+    transition: 0.5s;
+}
+
+.booking-img img {
+    border-radius: 8px;
+    position: relative;
+    z-index: 4;
+}
+
+.booking-img::before {
+    content: '';
+    width: 30%;
+    height: 30%;
+    border-radius: 0px 10px 0px 0px;
+    background: linear-gradient(to right, #f77201, #f9aa05);
+    -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 0%);
+    clip-path: polygon(100% 0%, 100% 100%, 0% 0%);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.booking-img .booking-shape img {
+    position: absolute;
+    top: -5px;
+    right: -15px;
+    z-index: 1;
+}
+
+.feature .heading span {
+    color: var(--primary);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 7px;
+}
+
+.feature .heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.feature .heading p {
+    margin-top: 30px;
+}
+
+.feature .heading {
+    margin-bottom: 70px;
+}
+
+
+.feature .custom_btn {
+    background: var(--primary);
+    padding: 20px 30px;
+    display: inline-flex;
+    color: var(--white) !important;
+    text-transform: capitalize;
+    border-radius: 4px;
+    line-height: 1;
+    gap: 10px;
+    transition: all .3s ease;
+}
+
+.feature .custom_btn>svg {
+    transition: all .3s ease;
+}
+
+.feature .custom_btn:hover>svg {
+    transform: translateX(10px);
+    transition: all .3s ease;
+}
