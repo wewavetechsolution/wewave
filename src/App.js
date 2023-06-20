@@ -1,4 +1,6 @@
 import './App.css';
+import './Assets/Css/add.css';
+import './Assets/Css/responsive.css';
 import { Route, Routes } from 'react-router-dom';
 import Banner from './Pages/Home/Banner/Banner';
 import Footer from './Components/Footer/Footer';
