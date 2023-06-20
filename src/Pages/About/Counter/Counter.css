@@ -1,0 +1,35 @@
+.join_us {
+    background-image: url(../../../Assets/Images/counter_bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    z-index: 9;
+}
+
+.join_us .join_text {
+    font-size: 36px;
+    color: var(--white);
+}
+
+.join_us .custom_btn {
+    background: var(--primary);
+    padding: 20px 30px;
+    display: inline-flex;
+    color: var(--white) !important;
+    text-transform: capitalize;
+    border-radius: 4px;
+    line-height: 1;
+    gap: 10px;
+    transition: all .3s ease;
+}
+
+.join_us .custom_btn>svg {
+    transition: all .3s ease;
+}
+
+.join_us .custom_btn:hover>svg {
+    transform: translateX(10px);
+    transition: all .3s ease;
+}

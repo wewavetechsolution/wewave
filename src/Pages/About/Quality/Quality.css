@@ -1,0 +1,38 @@
+section.quality_sec {
+    padding: 80px 0;
+}
+
+.quality_header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.quality_icon {
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: var(--primary);
+}
+
+.quality_title {
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--primary);
+}
+
+.quality_item {
+    padding: 15px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+.quality_item:hover {
+    box-shadow: 0 0 40px rgb(51 51 51 / 10%);
+    transform: translateY(-5px);
+    transition: 0.5s;
+}

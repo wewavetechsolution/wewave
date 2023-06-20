@@ -19,9 +19,12 @@ import course8 from "./Images/course-08.jpg"
 import client1 from "./Images/client-01.png"
 import client2 from "./Images/client-02.png"
 import client3 from "./Images/client-03.png"
+import faq_j from "./Images/faq-j.jpg"
 import girl_bg from "./Images/girl-bg.png"
+import ipad from "./Images/ipad.png"
 import shape3 from "./Images/shape3.png"
 import shape_04_01 from "./Images/shape-04-01.png"
+import softbanner_aboubg from "./Images/softbanner-aboubg.jpg"
 import ui from "./Images/ui.png"
 import wewave_logo from "./Images/we-wave_logo.png"
 import wewave_logo_white from "./Images/we-wave_logo_white.png"
@@ -48,9 +51,12 @@ export {
     client1,
     client2,
     client3,
+    faq_j,
     girl_bg,
+    ipad,
     shape3,
     shape_04_01,
+    softbanner_aboubg,
     ui,
     wewave_logo,
     wewave_logo_white

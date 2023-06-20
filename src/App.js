@@ -9,6 +9,12 @@ import Service from './Pages/Home/Service/Service';
 import Gallery from './Pages/Home/Gallery/Gallery';
 import Query from './Pages/Home/Query/Query';
 import Testimonial from './Pages/Home/Testimonial/Testimonial';
+import AboutBanner from './Pages/About/Banner/Banner';
+import Description from './Pages/About/About/Description';
+import AboutCounter from './Pages/About/Counter/Counter';
+import Quality from './Pages/About/Quality/Quality';
+import AboutTestimonial from './Pages/About/Testimonial/Testimonial';
+import AboutFaq from './Pages/About/Faq/AboutFaq';
 
 
 function App() {
@@ -18,6 +24,7 @@ function App() {
       <div className='app'>
         <Routes>
           <Route index element={<><Banner /> <About /> <Countup /> <Service /> <Gallery /> <Query /> <Testimonial /> </>} />
+          <Route path='/about' element={<> <AboutBanner /> <Description /> <AboutCounter /> <Quality /> <AboutTestimonial /> <AboutFaq /> </>} />
         </Routes>
       </div>
       <Footer />

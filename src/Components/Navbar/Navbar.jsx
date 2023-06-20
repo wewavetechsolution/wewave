@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import NavbarModal from './NavbarModal'
+import { Nav } from 'react-bootstrap'
 
 export default function Navbar() {
 
@@ -33,9 +34,9 @@ export default function Navbar() {
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="about.html">
+                                    <Nav.Link href="/about">
                                         About us
-                                    </a>
+                                    </Nav.Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" to="#">
