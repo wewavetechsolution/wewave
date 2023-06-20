@@ -14,7 +14,7 @@ export default function AboutBanner() {
                                 <h2>About Us</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><Link to="#">Home</Link></li>
+                                        <li class="breadcrumb-item"><Link to="/">Home</Link></li>
                                         <li class="breadcrumb-item active" aria-current="page">About Us</li>
                                     </ol>
                                 </nav>
