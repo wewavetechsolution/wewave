@@ -105,6 +105,10 @@ footer .newsletter_arae .form-control {
 
 }
 
+footer .newsletter_arae .form-control::placeholder {
+    color: var(--white);
+}
+
 footer .newsletter_arae .form-control:focus,
 footer .newsletter_arae .form-control:active {
     border: 2px solid var(--white);
