@@ -1,0 +1,44 @@
+.soft_banner {
+    position: relative;
+}
+
+.soft_banner_overley {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.soft_banner_overley h2 {
+    color: var(--white);
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.breadcrumb-item a {
+    color: #f89e04;
+    transition: 0.5s;
+}
+
+.breadcrumb-item a:hover {
+    color: var(--white);
+    transition: 0.5s;
+}
+
+.breadcrumb-item.active,
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #a3a9af;
+}
+
+.soft_wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../../../Assets/Images/wave.png);
+    background-size: 1000px 100px;
+}

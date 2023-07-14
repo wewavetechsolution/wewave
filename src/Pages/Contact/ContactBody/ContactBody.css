@@ -1,0 +1,112 @@
+.contact_area {
+    padding: 100px 0;
+}
+
+.contact_area .contact_info>span {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--primary);
+    line-height: 1;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact_area .contact_info h3 {
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: var(--secondary);
+    margin-bottom: 25px;
+}
+
+.contact_area .contact_info>p {
+    font-size: 16px;
+    color: #787878;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.contact_area .description_list {
+    display: flex;
+    flex-flow: column;
+    row-gap: 30px;
+    padding-left: 0 !important;
+}
+
+.contact_area .description_list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.contact_area .description {
+    width: calc(100% - 70px);
+}
+
+.contact_area .description_list li .icon {
+    background: var(--primary);
+    width: 55px;
+    height: 55px;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+}
+
+.contact_area .description_list li .icon svg {
+    color: var(--white);
+    font-size: 20px;
+}
+
+.contact_area .description_list li .description h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.contact_area .description_list li .description p {
+    font-size: 15px;
+    color: #787878;
+    width: 78%;
+}
+
+.contact_area .description_list li .description p a {
+    color: #787878;
+}
+
+.contact_area .contact_form {
+    background: var(--primary);
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 175px;
+    z-index: 5;
+}
+
+.contact_area .contact_form .from_group {
+    display: grid;
+    row-gap: 25px;
+}
+
+.contact_area .input-group input.form-control {
+    padding: 10px;
+}
+
+.contact_area .send_btn {
+    background: #e6761d;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+.contact_area .top-pettern {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    z-index: 1;
+}

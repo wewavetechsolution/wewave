@@ -17,6 +17,8 @@ import AboutCounter from './Pages/About/Counter/Counter';
 import Quality from './Pages/About/Quality/Quality';
 import AboutTestimonial from './Pages/About/Testimonial/Testimonial';
 import AboutFaq from './Pages/About/Faq/AboutFaq';
+import ContactBanner from './Pages/Contact/Banner/Banner';
+import ContactBody from './Pages/Contact/ContactBody/ContactBody';
 
 
 function App() {
@@ -27,6 +29,7 @@ function App() {
         <Routes>
           <Route index element={<><Banner /> <About /> <Countup /> <Service /> <Gallery /> <Query /> <Testimonial /> </>} />
           <Route path='/about' element={<> <AboutBanner /> <Description /> <AboutCounter /> <Quality /> <AboutTestimonial /> <AboutFaq /> </>} />
+          <Route path='/contact' element={<> <ContactBanner /> <ContactBody /> </>} />
         </Routes>
       </div>
       <Footer />

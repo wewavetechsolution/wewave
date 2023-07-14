@@ -92,9 +92,9 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="contact.html">
+                                    <Link className="nav-link" to="/contact">
                                         Contact us
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
