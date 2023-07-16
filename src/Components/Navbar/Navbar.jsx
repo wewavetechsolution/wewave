@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import NavbarModal from './NavbarModal'
-import { Nav } from 'react-bootstrap'
 
 export default function Navbar() {
 
@@ -20,23 +19,23 @@ export default function Navbar() {
             <header className="header">
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-light">
-                        <a className="navbar-brand" href="/">
+                        <Link className="navbar-brand" to="/">
                             <img src={wewave_logo} alt="" />
-                        </a>
+                        </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <i className="fa-solid fa-bars" />
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="/">
+                                    <Link className="nav-link active" aria-current="page" to="/">
                                         Home
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Nav.Link href="/about">
+                                    <Link to="/about">
                                         About us
-                                    </Nav.Link>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" to="#">
